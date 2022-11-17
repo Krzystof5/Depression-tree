@@ -24,8 +24,8 @@ addLayer("p", {
     hotkeys: [
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true}
-    branches: "b",
+    layerShown(){return true},
+    branches: "b"
 }),
 addLayer("b", {
     name: "b", // This is optional, only used in a few places, If absent it just uses the layer id.
